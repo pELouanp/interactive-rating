@@ -1,0 +1,98 @@
+body {
+  font-family: "Overpass", sans-serif;
+  background: hsl(216, 12%, 8%);
+}
+.first,
+.second {
+  background: linear-gradient(
+    to bottom,
+    hsl(213, 19%, 18%),
+    hsl(213, 19%, 18%, 0.4)
+  );
+  border-radius: 15px;
+  color: white;
+  width: 275px;
+  margin: 200px auto;
+  padding: 30px;
+}
+.second {
+  text-align: center;
+  display: none;
+}
+.retour {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+.retour:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+p {
+  font-size: 12px;
+  line-height: 22px;
+  opacity: 0.5;
+}
+.submit {
+  display: flex;
+  margin: auto;
+  color: white;
+  background: hsl(25, 97%, 53%);
+  border-radius: 50px;
+  border: none;
+  padding: 10px 110px;
+  letter-spacing: 1px;
+}
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer {
+  color: white;
+}
+.note {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  margin: 30px 0 40px 0;
+}
+
+.star {
+  background: hsl(215, 17%, 23%);
+  border-radius: 25px;
+  padding: 12px;
+}
+.note1,
+.note2,
+.note3,
+.note4,
+.note5 {
+  opacity: 0.5;
+  background: hsl(215, 17%, 27%);
+  padding: 13px 17px 11px 17px;
+  border-radius: 25px;
+}
+.note1:hover,
+.note2:hover,
+.note3:hover,
+.note4:hover,
+.note5:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 1;
+  color: white;
+  background: hsl(217, 12%, 63%);
+}
+.result {
+  color: hsl(25, 97%, 53%);
+  opacity: 0.8;
+  background: hsl(213, 20%, 22%);
+  width: 150px;
+  margin: 30px auto;
+  border-radius: 25px;
+}
